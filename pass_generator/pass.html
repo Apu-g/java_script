@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Password Generator UI</title>
+    <link rel="stylesheet" href="pass..css">
+</head>
+<body>
+
+<div id="card">
+    <h1 id="title">
+        Generate a <br>
+        <span id="highlight">random password</span>
+    </h1>
+
+    <p id="subtitle">Never use an insecure password again.</p>
+
+    <button id="generate-btn" onclick="generatePasswords()">Generate passwords</button>
+    <input type="number" placeholder="password length" id="pass-length">
+
+    <div id="divider"></div>
+
+    <div id="password-box">
+        <div id="password1" onclick="copyText('password1')"></div>
+        <div id="password2" onclick="copyText('password2')"></div>
+    </div>
+</div>
+<script src="pass.js"></script>
+
+</body>
+</html>
