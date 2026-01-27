@@ -4,12 +4,14 @@
     align-items: right;
     justify-content: center;
     height: auto;
+    width: 400px;
     border: 2px solid black;
     padding-top: 20px;
     padding-bottom: auto;
     padding-left: 10px;
     margin-left: auto;
     min-width: 40px;
+    background-color: aqua;
     
 }
 
@@ -19,7 +21,7 @@
     
     align-items: left;
     justify-content: left;
-    width: auto;
+    width: 500px;
     height: 100px;
    
     margin-bottom: 20px;
@@ -29,6 +31,33 @@
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    
+    color: white;
+    border: none;
+    border-radius: 4px;
+
+}
+.savetab{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    
+    color: white;
+    border: none;
+    border-radius: 4px;
+
+}
+.delete{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    
+    color: white;
+    border: none;
+    border-radius: 4px;
+
 }
 
 .output{
