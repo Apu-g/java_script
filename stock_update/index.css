@@ -1,0 +1,47 @@
+
+body {
+    background-color: rgb(2, 4, 26);
+}.container {
+    width: 400px;
+    margin: 250px auto;
+    text-align: auto;
+    border: 2px solid black;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border-radius: 30px;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    
+    
+}
+#name {
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+#sym {
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+#price {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}                   
+#time {
+    color: purple;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
